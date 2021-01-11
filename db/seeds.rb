@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+user1 = User.create(name: 'Lucas')
+review1 = Review.create(user: user1, address: '565 Lukas St', city: "Seattle", state: "WA", zipcode: "98260")
+
+puts "seeded"
